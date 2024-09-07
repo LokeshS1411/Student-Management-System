@@ -1,4 +1,4 @@
-# Student Management System
+![25 04 2024_17 13 18_REC](https://github.com/user-attachments/assets/02b1be17-ec3f-40cf-b68d-a16dae150633)# Student Management System
 
 This is a fully responsive Student Management System built using React (with Vite) on the front end and Express.js on the backend. MySQL is used for managing the student data. The system allows users to perform CRUD (Create, Read, Update, Delete) operations for student records. The app is designed with full responsiveness, ensuring compatibility across various devices.
 
@@ -81,5 +81,6 @@ This is a fully responsive Student Management System built using React (with Vit
 
 This app uses responsive web design principles to ensure a consistent experience on mobile, tablet, and desktop screens. The layout adjusts dynamically using Bootstrap grid and media queries.
 
-#OutPut Video
+
+
 
