@@ -80,3 +80,6 @@ This is a fully responsive Student Management System built using React (with Vit
 ## Responsive Design
 
 This app uses responsive web design principles to ensure a consistent experience on mobile, tablet, and desktop screens. The layout adjusts dynamically using Bootstrap grid and media queries.
+
+#OutPut Video
+
