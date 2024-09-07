@@ -1,0 +1,135 @@
+.add-heading {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.add-head {
+  font-size: 2rem;
+  color: #333;
+}
+
+.add-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow:
+    inset 0px 0px 10px rgba(255, 255, 255, 1),
+    inset 0px 0px 20px rgba(255, 255, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.7),
+    10px 10px 20px rgba(0, 0, 0, 1);
+  border-radius: 8px;
+}
+
+.add-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-details label {
+  font-size: 1rem;
+}
+
+.add-details input,
+.add-details select {
+  padding: 7px;
+  border: none;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 4px 8px 4px 8px;
+  font-size: 1rem;
+  width: 97%;
+  background-color: #cdddde;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.confirm {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.confirm:hover {
+  transform: scale(1.1);
+  background-color: #09e6ee;
+  opacity: 0.9;
+  color: black;
+}
+
+@media only screen and (min-width: 1024px) {
+  .add-container {
+    width: 60%;
+    padding: 30px;
+  }
+
+  .add-head {
+    font-size: 2.5rem;
+  }
+
+  .add-details label {
+    font-size: 1.2rem;
+  }
+
+  .add-details input,
+  .add-details select {
+    font-size: 1.2rem;
+  }
+
+  .confirm {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .add-container {
+    width: 70%;
+  }
+
+  .add-head {
+    font-size: 2rem;
+  }
+
+  .add-details input,
+  .add-details select {
+    font-size: 1.1rem;
+    padding: 8px;
+  }
+
+  .confirm {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .add-container {
+    width: 90%;
+  }
+
+  .add-head {
+    font-size: 1.8rem;
+  }
+
+  .add-details input,
+  .add-details select {
+    font-size: 1rem;
+    padding: 6px;
+  }
+
+  .confirm {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+}

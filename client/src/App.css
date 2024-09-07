@@ -1,0 +1,20 @@
+
+body{
+    background-color: #d90086f8;
+}
+.app-heading{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* Multiple text-shadow layers for 3D effect */
+    text-shadow: 
+      3px 3px 0px #000000  /* Layer 2 - SteelBlue color */
+       /* Layer 3 - LimeGreen color */
+  }
+  
+ 

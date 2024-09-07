@@ -1,0 +1,137 @@
+.confirm-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow:
+    inset 0px 0px 10px rgba(255, 255, 255, 1),
+    inset 0px 0px 20px rgba(255, 255, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.7),
+    10px 10px 20px rgba(0, 0, 0, 1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.confirm-head {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow:
+    1px 0px 0px #000000f7
+}
+
+.con-table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+
+}
+
+.con-table th,
+.con-table td {
+  padding: 10px 15px;
+  border: 1px solid #b5b5b5;
+  text-align: left;
+}
+
+.confirm-btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.confirm-add,
+.confirm-back {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3f9242;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.confirm-back {
+  background-color: #f44336;
+}
+
+.confirm-add:hover {
+  opacity: 0.9;
+  transition: 1s;
+  background-color: rgb(16, 242, 170);
+  color: rgb(0, 0, 0);
+}
+
+.confirm-back:hover {
+  opacity: 0.9;
+  transition: 1s;
+  background-color: rgb(240, 178, 21);
+  color: rgb(0, 0, 0);
+}
+
+@media only screen and (min-width: 1024px) {
+  .confirm-container {
+    width: 60%;
+    padding: 30px;
+  }
+
+  .confirm-head {
+    font-size: 2.5rem;
+  }
+
+  .confirm-btn {
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .confirm-container {
+    width: 70%;
+  }
+
+  .confirm-head {
+    font-size: 2rem;
+  }
+
+  .con-table th,
+  .con-table td {
+    padding: 8px 12px;
+  }
+
+  .confirm-btn {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .confirm-add,
+  .confirm-back {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .confirm-container {
+    width: 90%;
+  }
+
+  .confirm-head {
+    font-size: 1.8rem;
+  }
+
+  .con-table th,
+  .con-table td {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+
+  .confirm-btn {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .confirm-add,
+  .confirm-back {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
